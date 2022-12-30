@@ -12,10 +12,10 @@ default: &default
 development:
   adapter: postgresql
   enconding: unicode
-  database: pingPiper
+  database: pingPiperDB
   pool: 5
-  username: rails_dev
-  password: rails
+  username: benproell
+  password: bpro
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
